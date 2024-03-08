@@ -13,7 +13,7 @@ body{
 
 #home a{
     padding: 25px;
-    color: white;
+    /* color: white; */
     font-size: 20px;
     transition: transform 0.3s;
 }
@@ -24,32 +24,24 @@ body{
 }
 
 #home #navbarNavAltMarkup{
-    width: 100%;
+    /* width: 100%;
     list-style: none;
-    display: flex;
+    display: flex; */
     justify-content: flex-end;
-    align-items: center;
+    /* align-items: center; */
 }
 
-.coverPage{
-    height: 200px;
-    /* padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px; */
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
+#home img{
+    margin-top: -100px;
 }
 
-#home .coverPage img{
+/* #home .coverPage img{
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -65px;
-}
+} */
 
 .introText{
     width: 80%;
