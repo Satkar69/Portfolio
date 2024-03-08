@@ -51,25 +51,25 @@ body{
     margin-top: -65px;
 }
 
-.aboutText{
+.introText{
     width: 80%;
 }
 
-.aboutText h1{
+.introText h1{
     margin-left: 50px;
     font-size: 3.3 rem;
     margin-bottom: 12px;
     color: white;
 }
 
-.aboutText p{
+.introText p{
     margin-left: 50px;
     color: white;
     font-size: 25px;
     margin-bottom: 12px;
 }
 
-.aboutText button{
+.introText button{
     padding: 1em 2.1em 1.1em;
     margin-left: 50px;
     margin-top: 50px;
@@ -77,4 +77,29 @@ body{
     font-weight: 400;
     font-size: 15px;
     box-shadow: ;
+}
+
+.aboutDesc{
+    height: 200px;
+    /* padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.introText .btn{
+    transition: transform 0.3s;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+
+.introText .btn:hover{
+    color: black;
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255, 0.4);
+    border: 2px solid black;
 }
