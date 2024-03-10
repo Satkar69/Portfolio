@@ -210,3 +210,7 @@ footer {
 .carousel-control-next{
     background-color: rgba(40, 39, 39, 0.3);
 }
+
+.card-link{
+    text-decoration: none;
+}
