@@ -19,3 +19,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
   setInterval(slideNext, 2000); // Change slide every 2 seconds (adjust as needed)
 });
+
+

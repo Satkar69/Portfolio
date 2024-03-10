@@ -81,7 +81,7 @@ body{
 }
 
 .card:hover{
-    transform: scale(0.9);
+    transform: scale(0.97);
     box-shadow: 10px 10px 10px grey;
 }
 
