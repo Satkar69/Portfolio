@@ -25,6 +25,7 @@ body{
     color: orangered;
 }
 
+
 #home #navbarNavAltMarkup{
     justify-content: flex-end;
 }
@@ -111,8 +112,7 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    font-size: 30px;
-    font-family: cursive;
+    font-size: 35px;
     color: rgb(170, 170, 170);
 }
 
@@ -121,7 +121,6 @@ body{
     display: flex;
     justify-content: center;
     color:  rgb(170, 170, 170);
-    font-family: cursive;
 }
 
 .myProfile{
